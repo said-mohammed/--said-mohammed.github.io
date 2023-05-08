@@ -1,24 +1,20 @@
 body{
     background-color: #f8f9fa;
 }
-.main-container{
-    margin-bottom: 100px;
-    background-image: url('/assets/Rural-solar-renewafrica.biz_.jpg');
-    background-size: cover;
+
+/* .intro-top{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+
+h5{
+    color: aliceblue;
 }
 
-.my-container{
-    padding-top: 300px;
-}
-
-.main-container-2{
-    margin-bottom: 30px;
-    background-image: url('/assets/PHOTO-2020-01-10-13-10-44.png');
-    height: 879px;
-}
-
-.main-container-3{
-    margin-top: 30px;
+.battery{
+    background-color: #85bf5d;
 }
 
 .main-h1{
@@ -41,10 +37,10 @@ body{
     font-size: 1 em;
 }
 
-h5{
-    color: white;
+/* h5{
+    color: #85bf5d;
     font-size: 1 em;
-}
+} */
 
 
 .green-box{
@@ -69,7 +65,7 @@ hr{
 }
 
 .paragraph{
-    padding-left: 50px;
+    /* padding-left: 50px; */
     font-size: 1.2em;
     padding-bottom: 20px;
 }
@@ -139,24 +135,188 @@ hr{
 }
 
 .arrow{
-    color: white;
+    color: black;
     width: 45px;
     height: 25px;
 }
 
 h1{
-    margin-left: 50px;
-    padding-bottom: 20px;
-}
-
-.col{
-    margin-bottom: 30px;
-    /* background-color: green;
-    margin: 10px; */
+    /* margin-left: 50px; */
+    /* padding-bottom: 20px; */
 }
 
 .para, .h4c{
     background-color: #85bf5d;
     padding: 1rem;
     margin-bottom: 0;
+}
+
+.para-2{
+    background-color: #e4e4e4;
+    padding: 1rem;
+    margin-bottom: 0;
+}
+
+.my-container-soc{
+    position: relative;
+}
+
+.soa-topic{
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    left: 0.5rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #85bf5d;
+    font-size: 1rem;
+}
+
+.my-container-soc-2{
+    padding: 1% 5%;
+}
+
+.activities{
+    background-color: #85bf5d;
+    padding: 2%;
+}
+
+.grey-box{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-weight: 500;
+}
+
+.grey-box-2{
+    text-align: left;
+    position: absolute;
+    color: white;
+    margin: auto;
+    text-decoration: none;
+    font-weight: 300;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.grey-box-text{
+    background-color: #85bf5d; 
+    padding: 10px;
+}
+
+.grey-box-text-2{
+    background-color:#858585;
+    padding: 10px;
+}
+
+.grey-box-text-2:hover{
+    background-color: #85bf5d;
+    padding: 10px;
+}
+
+.ges-top{
+    position: absolute;
+}
+
+.ges-topic{
+    text-align: left;
+    position: absolute;
+    top: 0.5rem;
+    left: 2rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #85bf5d;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.soc-eo-topic{
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #85bf5d;
+    padding: .5rem;
+    /* font-size: 1rem; */
+}
+
+.learn-topic{
+    background-color: #85bf5d;
+    padding: 10px;
+    margin-top: 50px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.content-section{
+    padding: 3rem;
+    align-items: start;
+}
+
+.container-fluid{
+    position: relative;
+}
+
+.row{
+    margin: 1rem;
+    padding: 0;
+}
+
+.post{
+    position: absolute;
+}
+
+.col{
+    margin-bottom: 1rem;
+}
+
+.my-col{
+    margin-bottom: 1rem;
+}
+
+.inset-cont{
+    position: relative;
+    margin-bottom: 20px;
+} 
+
+.inset-text{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 20px;
+    font-weight: 500;  
+}
+
+.inset-text:hover{
+    color:#85bf5d;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+.soa-pic{
+    margin-bottom: 1rem;
+}
+
+.see-more{
+    color: #85bf5d;
+}
+
+.large-box{
+    font-size: larger;
+}
+
+.my-donate-btn{
+    margin: 1rem;
+    float: right;
 }
